@@ -1,0 +1,22 @@
+body{
+	background:#FFF;
+	padding:0px;
+	margin:0px;
+}
+
+#banner_top{
+	background: #00A;
+}
+#banner_kelp{
+	background: #0AA;
+	display:none;
+}
+
+.content{
+	padding: 10px;
+}
+.banner{
+	border-bottom:3px #EEE solid;
+	color:#FFF;
+	padding:20px 10px 5px 10px;
+}

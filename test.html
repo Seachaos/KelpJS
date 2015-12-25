@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href="./style.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="./jquery-1.11.3.min.js" ></script>
+	<script type="text/javascript" src="./kelp.js" ></script>
+</head>
+<body>
+	<div id="banner_top" class="banner">
+		MENU_TOP
+	</div>
+	<div id="banner_kelp" class="banner">
+		MENU_KELP
+	</div>
+	<div class="content">
+		A lot of content<br />A lot of content<br />A lot of content<br />A lot of content<br />A lot of content<br />
+		A lot of content<br />A lot of content<br />A lot of content<br />A lot of content<br />A lot of content<br />
+		A lot of content<br />A lot of content<br />A lot of content<br />A lot of content<br />A lot of content<br />
+		A lot of content<br />A lot of content<br />A lot of content<br />A lot of content<br />A lot of content<br />
+		A lot of content<br />A lot of content<br />A lot of content<br />A lot of content<br />A lot of content<br />
+		A lot of content<br />A lot of content<br />A lot of content<br />A lot of content<br />A lot of content<br />
+		A lot of content<br />A lot of content<br />A lot of content<br />A lot of content<br />A lot of content<br />
+		A lot of content<br />A lot of content<br />A lot of content<br />A lot of content<br />A lot of content<br />
+		A lot of content<br />A lot of content<br />A lot of content<br />A lot of content<br />A lot of content<br />
+		A lot of content<br />A lot of content<br />A lot of content<br />A lot of content<br />A lot of content<br />
+		A lot of content<br />A lot of content<br />A lot of content<br />A lot of content<br />A lot of content<br />
+		A lot of content<br />A lot of content<br />A lot of content<br />A lot of content<br />A lot of content<br />
+		<span class="show_kelp">Here Show KELP</span><br />
+		A lot of content<br />A lot of content<br />A lot of content<br />A lot of content<br />A lot of content<br />
+		A lot of content<br />A lot of content<br />A lot of content<br />A lot of content<br />A lot of content<br />
+		A lot of content<br />A lot of content<br />A lot of content<br />A lot of content<br />A lot of content<br />
+		A lot of content<br />A lot of content<br />A lot of content<br />A lot of content<br />A lot of content<br />
+		A lot of content<br />A lot of content<br />A lot of content<br />A lot of content<br />A lot of content<br />
+	</div>
+	<script type="text/javascript">
+		// kelp.base($('#banner_top')).grow($('#banner_kelp')).find($('.show_kelp')).up();
+		// kelp.base($('#banner_top')).find($('.show_kelp')).up($('#banner_kelp'));
+		kelp.base($('#banner_top')).over(10).grow($('#banner_kelp')).up();
+		// kelp.baseOn($('#banner_top')).grow($('#banner_kelp')).overWindow(0).up();
+	</script>
+</body>
+</html>
