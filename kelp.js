@@ -1,7 +1,7 @@
 /*
+KelpJS V0.0.2
 The MIT License (MIT)
-
-Copyright (c) 2015 Seachaos
+Copyright (c) 2016 Seachaos
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -101,6 +101,9 @@ kelp.up = kelp.run = kelp.ok = function(dom){
 	banner_kelp.css('position','fixed');
 	banner_kelp.css('top','0px');
 	banner_kelp.width(this.banner_top.width());
+	$(window).resize(function(){
+		kelp.banner_kelp.width(kelp.banner_top.width());
+	});
 	$(document).scroll(this.scrollAction);
 	return this;
 }
